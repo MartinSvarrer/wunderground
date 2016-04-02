@@ -1,0 +1,12 @@
+{
+  "name": "wunderground",
+  "version": "1.0.0",
+  "description": "Fetch and store basic data from wunderground",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Casper og Martin",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
