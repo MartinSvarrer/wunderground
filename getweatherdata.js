@@ -26,9 +26,9 @@ var getAndStoreData = function () {
           json[obsTime] = weather_data;
 
           // gemme json fil.
-          fs.writeFile("./db.json", JSON.stringify(json), (err) => {
+          fs.writeFile("./db.json", JSON.stringify(json, null, 2), (err) => {
             if (err) throw err;
-            console.log('It\'s saved!');
+            console.log('NEW DATA SAVED TO "db.json"');
           });
         });
       });
