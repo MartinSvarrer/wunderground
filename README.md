@@ -2,7 +2,7 @@
 
 Hej Casper,
 
-her er et par ting du skal gøre FØRSTE gang du kan henter programmet for at "installere" det:
+# Installér programmet
 
 1. Tryk 'Download ZIP' og pak zippen ud, hvor du gerne vil have koden til at være på din computer.
 1. Installér [Node.js](https://nodejs.org/en/). Det er værktøjet til at køre koden.
